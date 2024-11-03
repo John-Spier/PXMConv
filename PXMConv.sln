@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PXMConv", "PXMConv\PXMConv.csproj", "{72EC5C04-E880-4355-B5BE-A3EA9F2D5252}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72EC5C04-E880-4355-B5BE-A3EA9F2D5252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EC5C04-E880-4355-B5BE-A3EA9F2D5252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EC5C04-E880-4355-B5BE-A3EA9F2D5252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EC5C04-E880-4355-B5BE-A3EA9F2D5252}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {924A07AF-FCED-4DE5-AC9F-A7C3EDCC33BD}
+	EndGlobalSection
+EndGlobal
