@@ -201,6 +201,11 @@ static Dictionary<string, byte[]> LoadQLP(string path)
 
 static int WritePXMFromQLP(Dictionary<string, byte[]> pairs, string path)
 {
+	if (pairs.Count != 3)
+	{
+		Console.Error.WriteLine("QLP has wrong number of files, not a PXM!");
+		return 1;
+	}
 	try
 	{
 		BinaryWriter writer = new(new FileStream(path, FileMode.Create));

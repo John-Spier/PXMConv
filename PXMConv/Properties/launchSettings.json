@@ -1,8 +1,7 @@
 {
   "profiles": {
     "PXMConv": {
-      "commandName": "Project",
-      "commandLineArgs": "-d .\\C"
+      "commandName": "Project"
     }
   }
 }
